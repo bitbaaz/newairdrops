@@ -24,3 +24,4 @@ jobs:
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: |
           python airdrop_notifier.py
+# This workflow sends new airdrops to Telegram
